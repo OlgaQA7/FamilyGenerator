@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<IChildGenerator, ChildGenerator>();
 builder.Services.AddSingleton<IFamilyHelper, FamilyHelper>();
+builder.Services.AddSingleton<IRandomChildHelper, RandomChildHelper>();
 
 var app = builder.Build();
 

@@ -7,6 +7,8 @@
 
     public class Family
     {
+        public string fatherLastName;
+
         public string Husband { get; set; }
 
         public string Wife { get; set; }
